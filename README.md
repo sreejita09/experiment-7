@@ -11,9 +11,9 @@ The lowest address corresponds to the first element and the highest address to t
 To declare an array in C++, we must specify the type of elements and the number of elements required by an array −: type arrayName [ array_size ]
 You can initialize C++ array elements either one by one or using a single statement as follows −: int arr[5] = {1000, 2, 3, 17, 50}
 Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
-|      strings    |      arrays       |
-|it is a class that defines a objects in characters|array of characters terminated by null characters|
-|it can define a number of functions|do not have a lot of functions inbuilt|
+|      strings                                      |      arrays                                     |
+|it is a class that defines a objects in characters |array of characters terminated by null characters|
+|it can define a number of functions                |do not have a lot of functions inbuilt|
 
 # 1. creating array declaration 
 ~~~
