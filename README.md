@@ -172,7 +172,7 @@ int main() {
 # output 
 ![image](https://github.com/user-attachments/assets/63f2ae4a-6fee-49ac-880a-54df1e3d923f)
 
-# search 
+# 6. search 
 ~~~
 #include<iostream>
 using namespace std;
@@ -211,7 +211,7 @@ int main()
 # output
 ![image](https://github.com/user-attachments/assets/535c1795-e40e-44dd-9740-90f612f7e072)
 
-# string 
+# 7. string 
 ~~~
 #include<iostream>
 using namespace std;
@@ -228,7 +228,7 @@ int main()
 # output 
 ![image](https://github.com/user-attachments/assets/d54e0097-b86b-448d-9e51-5eae643e1ff6)
 
-# string concaternation 
+# 8. string concaternation 
 ~~~
 #include<iostream>
 using namespace std;
@@ -250,7 +250,7 @@ int main()
 # output 
 ![image](https://github.com/user-attachments/assets/46fa6be2-e509-4552-88b9-48511d2e0ea1)
 
-# string reversal 
+# 9. string reversal 
 ~~~
 #include<iostream>
 #include<string>
@@ -274,7 +274,7 @@ int main()
 # output 
 ![image](https://github.com/user-attachments/assets/42147f21-9911-4d32-91c1-5faf498df7e0)
 
-# string palindrome 
+# 10. string palindrome 
 ~~~
 #include<iostream>
 #include<string>
