@@ -207,3 +207,104 @@ int main()
 ~~~
 # output
 ![image](https://github.com/user-attachments/assets/535c1795-e40e-44dd-9740-90f612f7e072)
+
+# string 
+~~~
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string a; 
+    cout<<"enter a string: ";
+    cin>>a;
+    cout<<"the string is: "<<a<<endl;
+    return 0;
+}
+~~~
+# output 
+![image](https://github.com/user-attachments/assets/d54e0097-b86b-448d-9e51-5eae643e1ff6)
+
+# string concaternation 
+~~~
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string a,b,c; 
+    cout<<"enter a string a: ";
+    cin>>a;
+    cout<<"enter a string b: ";
+    cin>>b;
+
+    c=a+b;
+    cout<<"concaternation of the strings is: "<<c; 
+
+    return 0;
+}
+~~~
+# output 
+![image](https://github.com/user-attachments/assets/46fa6be2-e509-4552-88b9-48511d2e0ea1)
+
+# string reversal 
+~~~
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    string a;
+    int i;
+    cout<<"enter a string: ";
+    getline(cin,a);
+
+    for(i=a.length()-1;i>=0;i--)
+    {
+        cout<<a[i ];
+    }
+
+    return 0; 
+}
+~~~
+# output 
+![image](https://github.com/user-attachments/assets/42147f21-9911-4d32-91c1-5faf498df7e0)
+
+# string palindrome 
+~~~
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    string a;
+    cout << "Enter a string: ";
+    cin >> a;
+    int n = a.length();
+    int var = 1;
+    
+    for(int i = 0; i < n / 2; i++)
+    {
+        if(a[i] != a[n - i - 1])
+        {
+            var = 0;
+            break;
+        }
+    }
+    
+    if (var == 1)
+    {
+        cout << "The string is a palindrome." << endl;
+    }
+    else
+    {
+        cout << "The string is not a palindrome." << endl;
+    }
+
+    return 0;
+}
+~~~
+# output
+![image](https://github.com/user-attachments/assets/05755eb2-2824-4ee0-a7be-a018dbc5ffb7)
