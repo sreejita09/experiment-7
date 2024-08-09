@@ -43,37 +43,35 @@ int main()
 
 # 2. reversing an array 
 ~~~
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() 
-{
-    int n, i, j=0, k, l, temp;
-    cout<<"Enter size of array: ";
-    cin>>n;
-    int a1[n], a2[n];
+int main() {
+    int size;
 
-    for(i=0;i<5;i++) 
-    {
-        cout<<"Enter element-"<<i+1<<": ";
-        cin>>a1[i];
+    cout << "Enter the size of the array: ";
+    cin >> size;
+
+    int a[size];
+
+    cout << "Enter " << size << " elements:" << endl;
+    for (int i = 0; i < size; i++) {
+        cin >> a[i];
     }
-    cout<<"\nArray given by user: ";
-    for(l=0;l<5;l++) 
-    {
-        cout<<a1[l];
+
+    for (int i = 0; i < size / 2; i++) {
+        int temp = a[i];
+        a[i] = a[size - 1 - i];
+        a[size - 1 - i] = temp;
     }
-    cout<<endl;
-    for(k=4;k>=0;k--) 
-    {
-        temp = a1[k];
-        a2[j] = temp;
-        j++;
+
+    cout << "The reversed array is:" << endl;
+    for (int i = 0; i < size; i++) {
+        cout << a[i] << " ";
     }
-    cout<<"Reversed array: ";
-    for(l=0;l<5;l++) {
-        cout<<a2[l];
-    }
+
+    cout << endl;
+    return 0;
 }
 ~~~
 
